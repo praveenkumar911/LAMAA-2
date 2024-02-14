@@ -32,4 +32,5 @@ Answer Whatever Asked
     return tokenizer.decode(output[0])
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    # Run the app on port 6030
+    app.run(debug=True, port=6030)
