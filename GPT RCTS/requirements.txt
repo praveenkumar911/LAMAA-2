@@ -1,0 +1,3 @@
+transformers>=4.32.0
+optimum>=1.12.0
+auto-gptq @ https://huggingface.github.io/autogptq-index/whl/cu118/auto_gptq-0.1.0-py3-none-any.whl  # Use cu117 if on CUDA 11.7
