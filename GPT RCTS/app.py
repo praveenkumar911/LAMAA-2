@@ -10,7 +10,7 @@ model = AutoModelForCausalLM.from_pretrained(
     trust_remote_code=False,
     revision="main"
 )
-
+ 
 tokenizer = AutoTokenizer.from_pretrained(model_name_or_path, use_fast=True)
 
 @app.route('/generate', methods=['POST'])
